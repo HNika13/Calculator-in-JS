@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator JS</title>
+</head>
+
+<body>
+    <main>
+
+        <div class="calculator">
+            <p id="display" class="display"></p>
+
+            <button id="clear" class="clear" onclick="clr()"><strong>DEL</strong></button>
+            <button id="num" class="num" value="7" onclick="dis('7')"><strong>7</strong></button>
+            <button id="num" class="num" value="8" onclick="dis('8')"><strong>8</strong></button>
+            <button id="num" class="num" value="9" onclick="dis('9')"><strong>9</strong></button>
+            <button id="plus" class="plus" value="plus" onclick="dis('+')"><strong>+</strong></button>
+
+            <button id="num" class="num" value="4" onclick="dis('4')"><strong>4</strong></button>
+            <button id="num" class="num" value="5" onclick="dis('5')"><strong>5</strong></button>
+            <button id="num" class="num" value="6" onclick="dis('6')"><strong>6</strong></button>
+            <button id="subtract" class="subtract" value="-" onclick="dis('-')"><strong>-</strong></button>
+
+            <button id="num" class="num" value="1" onclick="dis('1')"><strong>1</strong></button>
+            <button id="num" class="num" value="2" onclick="dis('2')"><strong>2</strong></button>
+            <button id="num" class="num" value="3" onclick="dis('3')"><strong>3</strong></button>
+            <button id="multiply" class="multiply" value="multiply" onclick="dis('*')"><strong>*</strong></button>
+
+            <button id="null" class="null" value="0" onclick="dis('0')"><strong>0</strong></button>
+            <button id="point" class="point" value="." onclick="dis('.')"><strong>.</strong></button>
+
+            <button id="eqaul" class="eqaul" value="=" onclick="eqaul()"><strong>=</strong></button>
+            <button id="divide" class="divide" value="divided" onclick="dis('/')"><strong>/</strong></button>
+        </div>
+
+        <script src="main.js"></script>
+    </main>
+</body>
+
+</html>

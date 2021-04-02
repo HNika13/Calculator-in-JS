@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(85, 43, 124);
+}
+
+.calculator {
+    background-color: rgb(85, 43, 124);
+    height: 500px;
+    width: 340px;
+    margin: auto;
+    margin-top: 250px;
+}
+
+main button {
+    padding: 25px;
+    display: inline-block;
+    background-color: red;
+    margin-left: 12px;
+    font-size: 25px;
+}
+
+main .clear {
+    width: 80%;
+    margin-left: 40px;
+}
+
+main .display {
+    color: white;
+    margin-top: auto;
+    margin-left: 265px;
+    font-size: 35px;
+}
