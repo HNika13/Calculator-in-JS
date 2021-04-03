@@ -9,5 +9,5 @@ function eqaul() {
 }
 
 function clr() {
-    document.getElementById("display").innerHTML = "";
+    document.getElementById("display").innerHTML = "0";
 }
